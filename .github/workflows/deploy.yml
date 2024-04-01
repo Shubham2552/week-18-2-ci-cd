@@ -24,7 +24,7 @@ jobs:
         context: .
         file: ./docker/Dockerfile.user
         push: true
-        tags:shubham2525/week-18-2-ci-cd: latest  # Replace with your Docker Hub username and repository
+        tags: shubham2525/week-18-2-ci-cd:latest  # Replace with your Docker Hub username and repository
 
     - name: Verify Pushed Image
       run: shubham2525/week-18-2-ci-cd:latest  # Replace with your Docker Hub username and repository
